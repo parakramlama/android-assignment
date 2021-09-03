@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:foregroundGravity="center"
-        android:src="@drawable/weblogo">
+        android:src="@drawable/iphone" >
+<!--        android:src="@drawable/weblogo">-->
 
     </ImageView>
 

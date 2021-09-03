@@ -19,7 +19,7 @@
         android:layout_width="350dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:src="@drawable/weblogo"
+        android:src="@drawable/iphone"
         android:layout_marginTop="10dp"
         />
 
@@ -70,9 +70,9 @@
         android:layout_gravity="center"
         android:fontFamily="sans-serif"
         android:text="Login"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
-        app:backgroundTint="#c0e6f0" />
+        app:backgroundTint="#F0C0E2" />
 
     <TextView
         android:id="@+id/tvda"
