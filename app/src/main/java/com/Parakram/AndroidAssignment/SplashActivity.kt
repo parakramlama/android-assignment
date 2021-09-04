@@ -17,16 +17,16 @@ class SplashActivity : AppCompatActivity() {
                 startActivity(
                         Intent(
                                 this@SplashActivity,
-                                DashboardActivity::class.java
-                        )
+                    DashboardActivity::class.java
+                )
                 )
             }
             else {
-                startActivity(
-                        Intent(
-                                this@SplashActivity,
-                                MainActivity::class.java
-                        )
+            startActivity(
+                Intent(
+                    this@SplashActivity,
+                    MainActivity::class.java
+                )
                 )
             }
             finish()

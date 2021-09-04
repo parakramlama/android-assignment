@@ -23,9 +23,9 @@ class InstrumentedTest {
     @Test
     fun testLoginUI(){
         onView(withId(R.id.etemail))
-                .perform(typeText("sandy@gmail.com"))
+                .perform(typeText("parakram@gmail.com"))
         onView(withId(R.id.etpassword))
-                .perform(typeText("ujjwal"))
+                .perform(typeText("parakram"))
         closeSoftKeyboard()
 
         onView(withId(R.id.btnLogin))
