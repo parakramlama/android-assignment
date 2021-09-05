@@ -30,15 +30,15 @@ class UnitTesting {
         Assert.assertEquals(expectedResult, actualResult)
     }
 
-    @Test
-    fun deleteCart() = runBlocking {
-        postRepository = CartRepository()
-        userRepository = UserRepository()
-        ServiceBuilder.token ="Bearer " + userRepository.checkUser("parakram@gmail.com","parakram").token
-        val response = postRepository.deleteCart("607b1ce69261d9202481e83b",ServiceBuilder.token!!)
-        val expectedResult = true
-        val actualResult = response.success
-        Assert.assertEquals(expectedResult, actualResult)
-    }
+//    @Test
+//    fun deleteCart() = runBlocking {
+//        postRepository = CartRepository()
+//        userRepository = UserRepository()
+//        ServiceBuilder.token ="Bearer " + userRepository.checkUser("parakram@gmail.com","parakram").token
+//        val response = postRepository.deleteCart("607b1ce69261d9202481e83b",ServiceBuilder.token!!)
+//        val expectedResult = true
+//        val actualResult = response.success
+//        Assert.assertEquals(expectedResult, actualResult)
+//    }
 
 }

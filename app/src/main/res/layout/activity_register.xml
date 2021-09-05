@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:src="@drawable/iphone" />
+        android:src="@drawable/weblogo" />
 
     <TextView
         android:id="@+id/tvtitle"
